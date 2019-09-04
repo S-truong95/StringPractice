@@ -25,11 +25,11 @@ namespace StringPractice
             
             if(firstName.Length > lastName.Length)
             {
-                Console.WriteLine("first");
+                Console.WriteLine(firstName);
             }
             if(firstName.Length < lastName.Length)
             {
-                Console.WriteLine("last");
+                Console.WriteLine(lastName);
             }
             if (firstName.Length == lastName.Length)
             {
