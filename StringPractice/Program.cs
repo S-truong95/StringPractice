@@ -18,6 +18,7 @@ namespace StringPractice
             string lastName = Console.ReadLine();
 
             Console.WriteLine("Your last name is: " + lastName);
+
         }
     }
 }
