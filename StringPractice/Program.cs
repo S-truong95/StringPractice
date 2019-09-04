@@ -19,6 +19,22 @@ namespace StringPractice
 
             Console.WriteLine("Your last name is: " + lastName);
 
+            Console.WriteLine(firstName.ToLower() + " " + lastName.ToLower());
+
+            Console.WriteLine("Which is longer - first or last");
+            
+            if(firstName.Length > lastName.Length)
+            {
+                Console.WriteLine("first");
+            }
+            if(firstName.Length < lastName.Length)
+            {
+                Console.WriteLine("last");
+            }
+            if (firstName.Length == lastName.Length)
+            {
+                Console.WriteLine("Your first and last name are equal in length");
+            }
         }
     }
 }
